@@ -135,3 +135,57 @@ Here are some best practices to keep in mind when working with the staging area:
 * **Keep your commits organized**: Use the staging area to organize your commits by staging related changes together.
 
 By understanding the staging area and using it effectively, you can improve your Git workflow and create more organized, meaningful commits.
+
+**Logging Commit History**
+-----------------------------
+
+Logging commit history is a way to see all the changes made to your code over time. Git provides a command to do this.
+
+**`git log` Command**
+--------------------
+
+The `git log` command shows a list of all commits made to your repository.
+
+**Example**
+```
+$ git log
+commit 3456789abcdef
+Author: John Doe <john.doe@example.com>
+Date:   Fri Mar 12 14:30:00 2021 +0000
+
+    Initial commit
+
+commit 1234567abcdef
+Author: Jane Doe <jane.doe@example.com>
+Date:   Thu Mar 11 10:00:00 2021 +0000
+
+    Added new feature
+```
+This shows two commits:
+
+* The first commit was made by John Doe on March 12, 2021, with the message "Initial commit".
+* The second commit was made by Jane Doe on March 11, 2021, with the message "Added new feature".
+
+**`git log --oneline` Command**
+-----------------------------
+
+The `git log --oneline` command shows a concise version of the commit history.
+
+**Example**
+```
+$ git log --oneline
+3456789abcdef Initial commit
+1234567abcdef Added new feature
+```
+This shows the same two commits, but in a shorter format.
+
+**Why Log Commit History?**
+---------------------------
+
+Logging commit history is useful for:
+
+* Seeing what changes were made to your code
+* Identifying who made changes and when
+* Tracking down bugs or issues introduced in specific commits
+
+By using `git log` and `git log --oneline`, you can easily see the history of changes made to your code.
