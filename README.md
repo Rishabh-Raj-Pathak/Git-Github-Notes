@@ -1,7 +1,8 @@
 **Git-Github-Notes**
 =====================
 
-### 1. What is a Version Control System?
+**What is a Version Control System?**
+---------------------------
 
 Version control, also known as source control, is the process of tracking and managing software code changes. Some famous version control systems include:
 
@@ -9,9 +10,10 @@ Version control, also known as source control, is the process of tracking and ma
 * Apache SubVersion
 * Piper (used by Google)
 
-### 2. Introduction to Git VCS
+**Introduction to Git VCS**
+---------------------------
 
-#### What is Git?
+**What is Git?**
 
 Git is a version control system that allows you to track and manage changes to your code.
 
@@ -19,7 +21,7 @@ Git is a version control system that allows you to track and manage changes to y
 
 To install Git, follow the instructions for your operating system.
 
-#### Basic Git Commands
+**Basic Git Commands**
 
 Here are some basic Git commands to get you started:
 
@@ -31,7 +33,8 @@ Here are some basic Git commands to get you started:
 
 You can find a cheat sheet for mostly used Git commands here: https://education.github.com/git-cheat-sheet-education.pdf
 
-### 3. Version Controlling with Git
+**Version Controlling with Git**
+---------------------------
 
 #### Initializing a Git Project
 
@@ -47,7 +50,8 @@ To track all files, use: `git add .`
 
 To remove a file from VCS, use: `git rm <FILE_PATH>`
 
-#### Introduction to Commits
+**Introduction to Commits**
+---------------------------
 
 A commit is a snapshot of your project's code at a particular point in time. It's a way to save your changes and track the history of your project.
 
@@ -55,7 +59,8 @@ A commit is a snapshot of your project's code at a particular point in time. It'
 
 A commit is a collection of changes made to your code, along with a message that describes those changes.
 
-#### The Commit Process
+**The Commit Process**
+---------------------------
 
 Here's a step-by-step overview of the commit process:
 
@@ -64,7 +69,8 @@ Here's a step-by-step overview of the commit process:
 3. **Commit changes**: Use `git commit` to commit the staged changes.
 4. **Create a commit**: Git creates a new commit, which includes the changes you made, the commit message, and other metadata.
 
-#### Commit Message
+**Commit Message**
+---------------------------
 
 The commit message is a brief description of the changes you made. A good commit message should:
 
@@ -72,7 +78,8 @@ The commit message is a brief description of the changes you made. A good commit
 * Describe the changes you made
 * Explain why you made the changes
 
-#### Best Practices for Commits
+**Best Practices for Commits**
+---------------------------
 
 Here are some best practices to keep in mind when working with commits:
 
@@ -81,11 +88,8 @@ Here are some best practices to keep in mind when working with commits:
 * **Use meaningful commit messages**: Use keywords and phrases that describe the changes you made.
 * **Keep commits small**: Try to keep each commit focused on a single change or feature.
 
-#### Staging Area
 
-The staging area, also known as the index, is a critical concept in Git. It's a temporary holding area where you prepare your changes to be committed. Think of it as a buffer zone between your working directory and your Git repository.
-
-**What is the Staging Area?**
+**Staging Area?**
 ---------------------------
 
 The staging area is a virtual space where you stage your changes before committing them. When you make changes to your code, you need to stage those changes before you can commit them. The staging area is where you prepare those changes to be committed.
