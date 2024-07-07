@@ -269,3 +269,57 @@ You can see that a new commit has been created, which reverts back to the previo
 * You can use `git revert` with a range of commits, such as `git revert HEAD~2..HEAD`, to revert back to a previous range of commits.
 
 By using `git revert`, you can easily revert back to a previous version of your code, which can be useful for fixing mistakes or going back to a previous working version of your code.
+
+**Git vs GitHub: What's the Difference?**
+=============================================
+
+**What is Git?**
+----------------
+
+Git is a tool that helps you keep track of changes to your code. It's like a special kind of file folder that remembers every change you make.
+
+**What is a Git Server?**
+-------------------------
+
+A Git Server is a place where you can store your code and share it with others. It's like a central hub where everyone can access the latest version of the code.
+
+**Popular Git Servers**
+-------------------------
+
+### 1. **GitHub**
+
+GitHub is a popular Git Server that's used by millions of developers. It's like a big library where you can store and share your code.
+
+### 2. **GitLab**
+
+GitLab is another popular Git Server that's similar to GitHub. It's a great choice for teams and companies that want to manage their code in a private space.
+
+### 3. **BitBucket**
+
+BitBucket is a Git Server that's popular among teams and companies. It's known for its strong security features and ease of use.
+
+**Git Remotes**
+--------------
+
+A Git Remote is like a shortcut to a Git Server. It helps you connect your local code to the central hub, so you can share changes with others.
+
+**Pushing and Pulling**
+----------------------
+
+### **Pushing**
+
+Pushing means sending your changes to the Git Server, so others can see them.
+
+### **Pulling**
+
+Pulling means getting the latest changes from the Git Server and updating your local code.
+
+**Self-Hosted Git Server**
+-------------------------
+
+A Self-Hosted Git Server is when you host your own Git Server on your own computer or server. This gives you complete control over your code and data.
+
+**That's it**
+--------------
+
+In short, Git is a tool for tracking changes to your code, and a Git Server is a place to store and share your code. Popular Git Servers include GitHub, GitLab, and BitBucket. Git Remotes help you connect to the Git Server, and pushing and pulling let you share changes with others. Self-Hosted Git Servers give you complete control over your code and data.
