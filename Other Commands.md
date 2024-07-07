@@ -17,22 +17,38 @@ git blame <filename>
 
 #### Example Output
 ##### Index.js
-
 git blame Index.js
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 1) const name1 = "Rishabh";
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 2) const name2 = "Rishabh";
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 3) const age = "20";
-^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 4) console.log("connected to git");
-^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 5)
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 6) const date = "17-99-99";
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 7)
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 8) function isAbove18(age){
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 9) return age;
-f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 10) }
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 1) 
+  const name1 = "Rishabh";
 
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 2) 
+  const name2 = "Rishabh";
+
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 3) 
+  const age = "20";
+
+^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 4) 
+  console.log("connected to git");
+
+^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 5) 
+
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 6) 
+  const date = "17-99-99";
+
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 7) 
+
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 8) 
+  function isAbove18(age){
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 9) 
+    return age;
+f82a2882 (Rishabh Raj Pathak 2024-07-07 22:11:31 +0530 10) 
+}
 
 ##### newFile.js
 git blame newFile.js
-^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 1) function add(a,b){
-^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 2) return a+b;
-^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 3) }
+^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 1) 
+  function add(a,b){
+^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 2) 
+    return a+b;
+^edbdce3 (Rishabh Raj Pathak 2024-07-07 22:07:41 +0530 3) 
+}
