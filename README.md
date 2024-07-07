@@ -189,3 +189,83 @@ Logging commit history is useful for:
 * Tracking down bugs or issues introduced in specific commits
 
 By using `git log` and `git log --oneline`, you can easily see the history of changes made to your code.
+
+
+**Reverting Back**
+---------------------
+Sometimes, you may want to revert back to a previous version of your code. This can be useful if you've made changes that you want to undo, or if you want to go back to a previous working version of your code.
+
+**`git revert` Command**
+---------------------
+
+The `git revert` command is used to revert back to a previous commit.
+
+**Example**
+```
+$ git revert <COMMIT_HASH>
+```
+Replace `<COMMIT_HASH>` with the hash of the commit you want to revert back to.
+
+**How `git revert` Works**
+-------------------------
+
+When you run `git revert`, Git creates a new commit that reverses the changes made in the original commit. This new commit is then added to your commit history.
+
+**Example Scenario**
+-------------------
+
+Let's say you've made some changes to your code, but you realize that you've introduced a bug. You want to revert back to the previous version of your code.
+
+**Step 1: Find the Commit Hash**
+```
+$ git log
+commit 3456789abcdef
+Author: John Doe <john.doe@example.com>
+Date:   Fri Mar 12 14:30:00 2021 +0000
+
+    Made some changes
+
+commit 1234567abcdef
+Author: Jane Doe <jane.doe@example.com>
+Date:   Thu Mar 11 10:00:00 2021 +0000
+
+    Initial commit
+```
+You find the commit hash of the previous version of your code, which is `1234567abcdef`.
+
+**Step 2: Revert Back**
+```
+$ git revert 1234567abcdef
+```
+Git creates a new commit that reverts back to the previous version of your code.
+
+**Step 3: Verify the Changes**
+```
+$ git log
+commit 7890123abcdef
+Author: John Doe <john.doe@example.com>
+Date:   Fri Mar 12 14:35:00 2021 +0000
+
+    Revert "Made some changes"
+
+commit 3456789abcdef
+Author: John Doe <john.doe@example.com>
+Date:   Fri Mar 12 14:30:00 2021 +0000
+
+    Made some changes
+
+commit 1234567abcdef
+Author: Jane Doe <jane.doe@example.com>
+Date:   Thu Mar 11 10:00:00 2021 +0000
+
+    Initial commit
+```
+You can see that a new commit has been created, which reverts back to the previous version of your code.
+
+**Tips and Variations**
+-------------------------
+
+* You can also use `git revert -n` to revert back to a previous commit without creating a new commit.
+* You can use `git revert` with a range of commits, such as `git revert HEAD~2..HEAD`, to revert back to a previous range of commits.
+
+By using `git revert`, you can easily revert back to a previous version of your code, which can be useful for fixing mistakes or going back to a previous working version of your code.
