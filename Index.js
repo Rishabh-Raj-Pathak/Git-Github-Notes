@@ -12,3 +12,5 @@ function isAbove18(age){
 function newFun(){
     console.log("new function"); 
 }
+const name = "Rishabh";
+ 

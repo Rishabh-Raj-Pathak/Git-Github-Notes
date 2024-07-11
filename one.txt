@@ -1,1 +1,18 @@
 This is file 1
+
+made changes via in master branch
+
+master1
+master2
+master barnch3
+
+content(master)
+another content by master
+apply stash changes
+
+another fix message pinkmode
+another fix message purplemode
+
+add file after pushing to remote branch
+add jnjnsjsnj
+
