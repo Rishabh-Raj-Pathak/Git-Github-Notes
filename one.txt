@@ -10,3 +10,4 @@ another content by master
 apply stash changes
 
 another fix message pinkmode
+another fix message purplemode
