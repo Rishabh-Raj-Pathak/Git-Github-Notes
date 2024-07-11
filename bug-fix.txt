@@ -1,1 +1,2 @@
 bug-fix file
+another bug-fix
