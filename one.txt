@@ -8,3 +8,5 @@ master barnch3
 content(master)
 another content by master
 apply stash changes
+
+another fix message pinkmode
