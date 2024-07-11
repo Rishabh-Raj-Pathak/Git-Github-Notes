@@ -1,11 +1,9 @@
 this is two file, made 1st chnage
 addidng more content
 
-add another
-
-made changes via master branch
-master-branch1
-master-branch2
-
 made chnages via bug-fix branch
-
+bug-fix1
+bug-fix2
+bug-fix3
+bug-fix4
+bug-fix5
