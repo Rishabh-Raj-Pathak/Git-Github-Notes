@@ -10,12 +10,23 @@ Version control, also known as source control, is the process of tracking and ma
 * Apache SubVersion
 * Piper (used by Google)
 
+  In this tutorial we will be learning about **Git** (Version Control System) and **Github**  (a place to store and share code, indeed **it is much more than that**)
+
 **Introduction to Git VCS**
 ---------------------------
 
 **What is Git?**
 
 Git is a version control system that allows you to track and manage changes to your code.
+
+Now, let's move to a more formal definition of Git:
+
+"Git is a distributed version control system that tracks versions of files. It is often used to control source code by programmers collaboratively developing software"
+
+Let's break down the above definaition for your simplicity :)
+
+**Version control** is a way to save changes over time without overwriting previous versions. 
+Being **distributed** means that every developer working with a Git repository has a copy of that entire repository – every commit, every branch, every file.
 
 #### Installation of Git CLI
 
